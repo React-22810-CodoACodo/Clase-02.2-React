@@ -19,10 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
-    max-width: 1188px;
-     
-
+    min-height: 100vh;
 }
 
 .cont-principal {
