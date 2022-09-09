@@ -20,9 +20,8 @@ body {
     justify-content: center;
     align-items: center;
     /* min-height: 100vh; */
-    min-width: 1188px;
-    max-width: none;
-    max-height: none;   
+    max-width: 1188px;
+     
 
 }
 
