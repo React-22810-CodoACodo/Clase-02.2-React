@@ -18,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    min-height: 100vh;   
 }
 
 .cont-principal {
@@ -115,24 +116,28 @@ section {
     color: hsl(270, 10%, 20%);
     width: 40.5vw;
     height: 88vh;
-    margin: 0rem 0.5rem 2rem 0.5rem;
-    padding: 0rem 0rem 0rem 0.7rem;
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titulo-section {
     width: 18vw;
     height: 7vh;
+    padding: 0rem 0rem 0rem 0.7rem;
 }
 
 .art-aside {
-    width: 39vw;
+    width: auto;
     height: 78vh;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
 }
 
